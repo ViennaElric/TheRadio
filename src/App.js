@@ -1,24 +1,92 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import './RadioComponent.css';
+import './RadioBodyComponent.css'
+import './RadioFaceComponent.css'
+import './RadioControlComponent.css'
+
+
+class RadioComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.handleEvent = this.handleEvent.bind(this);
+    }
+    handleEvent(){
+      console.log(this.props);
+    }
+    render(){
+      return (
+        <div className="RadioComponent">
+        //  <button onClick={this.handleEvent}>Clickity Click</button>
+        <RadioBodyComponent/>
+        </div>
+      );
+    }
+}
+
+
+class RadioBodyComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.handleEvent = this.handleEvent.bind(this);
+    }
+    handleEvent(){
+      console.log(this.props);
+    }
+    render(){
+      return (
+        <div className="RadioBodyComponent">
+          <RadioFaceComponent/>
+        </div>
+      );
+    }
+}
+
+
+class RadioControlsComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.handleEvent = this.handleEvent.bind(this);
+    }
+    handleEvent(){
+      console.log(this.props);
+    }
+    render(){
+      return (
+        <div className="RadioControlsComponent">
+          <p>hello</p>
+        </div>
+      );
+    }
+}
+
+
+
+  class RadioFaceComponent extends React.Component {
+      constructor(props) {
+        super(props);
+        this.handleEvent = this.handleEvent.bind(this);
+      }
+      handleEvent(){
+        console.log(this.props);
+      }
+      render(){
+        return (
+          <div className="RadioFaceComponent">
+            <RadioControlsComponent/>
+          </div>
+        );
+      }
+   }
+
+
 
 function App() {
+  //<div className="App">
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RadioComponent/>
     </div>
   );
 }
