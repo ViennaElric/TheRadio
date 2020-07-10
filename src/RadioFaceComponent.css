@@ -1,0 +1,9 @@
+.RadioFaceComponent {
+  border: red;
+  border-color: 2px;
+  border-radius: 25px;
+  background: yellow;
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+}
