@@ -1,12 +1,19 @@
 .RadioBodyComponent {
   border: red;
   border-color: 2px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-  background: blue;
-  padding: 20px;
-  width: 75%;
-  height: 100%;
+  border-top-left-radius: 110% 101%;
+  border-top-right-radius: 43% 74%;
+  border-bottom-right-radius: 47% 70%;
+  border-bottom-left-radius: 35% 55%;
+
+  background: #855E42;
+
+  margin-left: 10em;
+  margin-right: auto;
+  margin-top: 15em;
+  margin-bottom: auto;
+
+  width: 43em;
+  height: 20em;
+  overflow: hidden;
 }

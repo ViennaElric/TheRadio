@@ -6,7 +6,7 @@ import './RadioFaceComponent.css'
 import './RadioControlComponent.css'
 
 
-class RadioComponent extends React.Component {
+class RadioComponent extends Component {
     constructor(props) {
       super(props);
       this.handleEvent = this.handleEvent.bind(this);
@@ -17,7 +17,7 @@ class RadioComponent extends React.Component {
     render(){
       return (
         <div className="RadioComponent">
-        //  <button onClick={this.handleEvent}>Clickity Click</button>
+        
         <RadioBodyComponent/>
         </div>
       );
@@ -25,7 +25,7 @@ class RadioComponent extends React.Component {
 }
 
 
-class RadioBodyComponent extends React.Component {
+class RadioBodyComponent extends Component {
     constructor(props) {
       super(props);
       this.handleEvent = this.handleEvent.bind(this);
@@ -43,7 +43,7 @@ class RadioBodyComponent extends React.Component {
 }
 
 
-class RadioControlsComponent extends React.Component {
+class RadioControlsComponent extends Component {
     constructor(props) {
       super(props);
       this.handleEvent = this.handleEvent.bind(this);
@@ -62,7 +62,7 @@ class RadioControlsComponent extends React.Component {
 
 
 
-  class RadioFaceComponent extends React.Component {
+  class RadioFaceComponent extends Component {
       constructor(props) {
         super(props);
         this.handleEvent = this.handleEvent.bind(this);
