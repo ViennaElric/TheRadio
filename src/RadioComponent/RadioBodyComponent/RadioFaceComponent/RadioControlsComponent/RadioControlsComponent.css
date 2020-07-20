@@ -1,0 +1,8 @@
+.RadioControlComponent {
+  border: red;
+  border-color: 2px;
+  border-radius: 50%;
+  background: pink;
+  width: 25%;
+  height: 25%;
+}
