@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './RadioComponent.css';
-import RadioBodyComponent from './RadioBodyComponent/index'
+import RadioBodyComponent from './RadioBodyComponent'
 
 
 class RadioComponent extends Component {
