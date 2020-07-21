@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './RadioFaceComponent.css'
-import RadioControlsComponent from './RadioControlsComponent/RadioControlsComponent'
+import RadioControlsComponent from './RadioControlsComponent/index'
 
 class RadioFaceComponent extends Component {
     constructor(props) {
