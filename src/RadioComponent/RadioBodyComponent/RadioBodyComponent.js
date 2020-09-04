@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './RadioBodyComponent.css';
 import RadioFaceComponent from './RadioFaceComponent'
+import SpeakerComponent from './SpeakerComponent'
 
 class RadioBodyComponent extends Component {
     constructor(props) {
@@ -15,8 +16,10 @@ class RadioBodyComponent extends Component {
     render(){
       return (
         <div className="RadioBodyComponent">
+          <SpeakerComponent/>
           <RadioFaceComponent/>
         </div>
+
       );
     }
 }
