@@ -1,0 +1,22 @@
+.SpeakerComponent {
+  border: 2px;
+  border-color: red;
+  background: pink;
+
+  width: 20em;
+  height: 11em;
+
+  border-top-left-radius: 110% 101%;
+  border-bottom-left-radius: 35% 55%;
+
+  margin-left: 6em;
+  margin-right: auto;
+  margin-top: 6em;
+  margin-bottom: auto;
+
+
+
+  float: left;
+  overflow: hidden;
+
+}
