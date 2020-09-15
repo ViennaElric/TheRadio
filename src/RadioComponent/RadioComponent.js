@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './RadioComponent.css';
-import RadioBodyComponent from './RadioBodyComponent'
-import RightFootComponent from './RightFootComponent'
+import RadioBodyComponent from './RadioBodyComponent';
+import RightFootComponent from './RightFootComponent';
+import LeftFootComponent from './LeftFootComponent';
 
 
 class RadioComponent extends Component {
@@ -17,6 +18,7 @@ class RadioComponent extends Component {
         <div className="RadioComponent">
         <RadioBodyComponent/>
         <RightFootComponent/>
+        <LeftFootComponent/>
         </div>
       );
     }
