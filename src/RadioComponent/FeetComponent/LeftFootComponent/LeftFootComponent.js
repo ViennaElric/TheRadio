@@ -4,7 +4,7 @@ import './LeftFootComponent.css';
 class LeftFootComponent extends Component {
   render(){
     return (
-      <p className="LeftFootComponent"> Left </p>
+        <div className="LeftFootComponent"> Left </div>
     );
   }
 }

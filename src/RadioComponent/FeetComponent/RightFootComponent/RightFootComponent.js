@@ -5,7 +5,8 @@ import './RightFootComponent.css';
 class RightFootComponent extends Component {
     render(){
       return (
-          <p className="RightFootComponent"> Hey there </p>
+        
+            <div className="RightFootComponent"> Right </div>
       );
     }
 }

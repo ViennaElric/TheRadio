@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './RadioComponent.css';
+import AntennaComponent from './AntennaComponent';
 import RadioBodyComponent from './RadioBodyComponent';
-import RightFootComponent from './RightFootComponent';
-import LeftFootComponent from './LeftFootComponent';
+import LeftFootComponent from './FeetComponent/LeftFootComponent';
+import RightFootComponent from'./FeetComponent/RightFootComponent';
+
 
 
 class RadioComponent extends Component {
@@ -16,9 +18,13 @@ class RadioComponent extends Component {
     render(){
       return (
         <div className="RadioComponent">
+        <AntennaComponent/>
         <RadioBodyComponent/>
-        <RightFootComponent/>
-        <LeftFootComponent/>
+        <div className="Feet">
+          <LeftFootComponent/>
+          <RightFootComponent/>
+        </div>
+
         </div>
       );
     }

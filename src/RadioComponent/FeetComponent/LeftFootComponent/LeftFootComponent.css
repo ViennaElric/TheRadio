@@ -1,0 +1,8 @@
+.LeftFootComponent {
+  display: inline-block;
+  width:4em;
+  height: 3em;
+  background: #b5f0f7;
+  float: left;
+  margin-left: 11em;
+}
